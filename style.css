@@ -1,0 +1,202 @@
+@import url('https://fonts.cdnfonts.com/css/v-dub');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://cdn-uicons.flaticon.com/2.2.0/uicons-solid-straight/css/uicons-solid-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.2.0/uicons-solid-rounded/css/uicons-solid-rounded.css');
+@import url('https://cdn-uicons.flaticon.com/2.2.0/uicons-solid-straight/css/uicons-solid-straight.css');
+
+
+:root {
+	--mainColor: #00006D;
+	--dark: #090809;
+	--light: #FBFEF9;
+  --secondaryColor: #ffb300;
+  --complementaryColor: #95a3a4;
+  --backgroundopacity: rgba(251, 254, 249, 0.334);
+
+}
+
+.textlight{
+    color: var(--light);
+}
+
+.textdark{
+    color: var(--dark);
+}
+
+.textblue{
+    color: var(--mainColor);
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+h3{
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.navbar {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    --bs-navbar-padding-x: 0;
+    --bs-navbar-padding-y: 0.5rem;
+    --bs-navbar-color: var(--dark);
+    --bs-navbar-hover-color: var(--mainColor);
+    --bs-navbar-disabled-color: rgba(var(--bs-emphasis-color-rgb), 0.3);
+    --bs-navbar-active-color: var(--mainColor);
+    --bs-navbar-brand-padding-y: 0.3125rem;
+    --bs-navbar-brand-margin-end: 1rem;
+    --bs-navbar-brand-font-size: 1.25rem;
+    --bs-navbar-brand-color: rgba(var(--bs-emphasis-color-rgb), 1);
+    --bs-navbar-brand-hover-color: rgba(var(white), 1);
+    --bs-navbar-nav-link-padding-x: 0.5rem;
+    --bs-navbar-toggler-padding-y: 0.25rem;
+    --bs-navbar-toggler-padding-x: 0.75rem;
+    --bs-navbar-toggler-font-size: 1.25rem;
+    --bs-navbar-toggler-icon-bg: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+    --bs-navbar-toggler-border-color: rgba(var(--bs-emphasis-color-rgb), 0.15);
+    --bs-navbar-toggler-border-radius: var(--bs-border-radius);
+    --bs-navbar-toggler-focus-width: 0.25rem;
+    --bs-navbar-toggler-transition: box-shadow 0.15s ease-in-out;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--bs-navbar-padding-y) var(--bs-navbar-padding-x);
+}
+
+.darkbutton {
+    --bs-btn-color: var(--dark);
+    --bs-btn-border-color: var(--dark);
+    --bs-btn-hover-color: var(--light);
+    --bs-btn-hover-bg: var(--mainColor);
+    --bs-btn-hover-border-color: var(--light);
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--dark);
+    --bs-btn-active-border-color: var(--dark);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--mainColor);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: var(--mainColor);
+    --bs-gradient: none;
+    --bs-btn-border-radius: var(--bs-border-radius-lg);
+    --bs-btn-font-weight: 700;
+}
+
+.lightbutton {
+    --bs-btn-color: var(--light);
+    --bs-btn-border-color: var(--light);
+    --bs-btn-hover-color: var(--light);
+    --bs-btn-hover-bg: var(--mainColor);
+    --bs-btn-hover-border-color: var(--light);
+    --bs-btn-focus-shadow-rgb: 13, 110, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: var(--dark);
+    --bs-btn-active-border-color: var(--dark);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--mainColor);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: var(--mainColor);
+    --bs-gradient: none;
+    --bs-btn-border-radius: var(--bs-border-radius-lg);
+    --bs-btn-font-weight: 700;
+}
+
+
+
+.home_section{
+    background-image: url(img/banner-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 670px;
+    background-position: center;
+    
+}
+
+.vdub-header{
+    font-family: 'VDub', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 0px;
+}
+
+
+.subheader{
+    font-size: 15px;
+}
+
+.cuerpo{
+    font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+@media (max-width : 768px) {
+
+    .home_section{
+        background-image: url(img/banner-1-movil.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 860px;
+        background-position: center;
+        padding-bottom: 0px;
+        
+    }
+
+    .vdub-header{
+        font-family: 'VDub', sans-serif;
+        font-size: 35px;
+        font-weight: 900;
+        letter-spacing: -2px;
+        
+    }    
+
+    h3{
+        size: 25px;
+    }
+
+    .headertext{
+        height: 100%;
+    }
+
+    .grammy_section{
+        background-image: url(img/banner-2-movil.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 860px;
+        background-position: center;
+        padding-top: 0px;
+    }
+
+    .services_section{
+        background-image: url(img/banner-3-movil.jpg);
+        background-size:auto;
+        background-repeat: no-repeat;
+        height: 1100px;
+        background-position: center;
+    }
+    
+}
+.servicecard{
+    background-color: var(--light);
+    padding:10%;
+}

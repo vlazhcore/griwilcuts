@@ -1,0 +1,53 @@
+<div class="row align-items-center">
+
+
+           
+            
+            <div class="col-md-6 col-sm-12">
+
+              <div class="row text-start">
+                <div class="col-3 text-end"><span><i class="fa-solid fa-helmet-safety yellowicon fs-3"></i></span></div>
+                <div class="col-9">
+                  <h2 class="fs-6 text-start text-maincolor">General construction</h2>
+                  <p class="text-start text-maincolor">Brickwork and general remodeling.</p>
+                </div>
+              </div>
+
+              <div class="row text-start">
+                <div class="col-3 text-end"><span><i class="fa-solid fa-bolt yellowicon fs-3"></i></span></div>
+                <div class="col-9">
+                  <h2 class="fs-6 text-start text-maincolor">Electrical services</h2>
+                  <p class=" text-start text-maincolor">Commercial and residential buildings for lighting.</p>
+                </div>
+              </div>
+
+              <div class="row text-start">
+                <div class="col-3 text-end"><span><i class="fa-solid fa-network-wired yellowicon fs-3"></i></span></div>
+                <div class="col-9">
+                  <h2 class="fs-6 text-start text-maincolor">System technologies</h2>
+                  <p class=" text-start text-maincolor">Installation, maintenance and replacement of network cabling, networking, communications and control equipment.</p>
+                </div>
+              </div>
+              
+          </div>
+
+          <div class="col-md-6 col-sm-12">
+            <div class="row">
+              <div class="col-3 text-end"><span ><i class="fa-solid fa-wrench yellowicon fs-3"></i></span></div>
+              <div class="col-9">
+                <h2 class="fs-6 text-start text-maincolor">Mechanics</h2>
+                <p class="text-start text-maincolor">Installation, replacement, maintenance, testing and repair of heating and cooling systems.</p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-3 text-end"><span ><i class="fa-solid fa-droplet yellowicon fs-3"></i></span></div>
+              <div class="col-9">
+                <h2 class="fs-6 text-start text-maincolor">Plumbing</h2>
+                <p class="text-start text-maincolor">Design, installation, replacement and repair for water supply and water drainage for buildings.</p>
+              </div>
+            </div>
+
+          </div>
+
+          </div>
